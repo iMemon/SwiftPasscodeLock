@@ -18,6 +18,6 @@ let package = Package(
         .library(name: "PasscodeLock", targets: ["PasscodeLock"])
     ],
     targets: [
-        .target(name: "PasscodeLock", path: "Lib/PasscodeLock")
+        .target(name: "PasscodeLock", path: "PasscodeLock")
     ]
 )
